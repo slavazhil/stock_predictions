@@ -4,7 +4,7 @@ resource "aws_lambda_function" "lmbd" {
     memory_size = 5120
     timeout = 30
     package_type = "Image"
-    image_uri = "062087429298.dkr.ecr.us-east-1.amazonaws.com/stock_predictions@sha256:290641df931c5c367fcc5809d8100cebab9b64265b0f34092c13deb6cb0082ca"
+    image_uri = "062087429298.dkr.ecr.us-east-1.amazonaws.com/stock_predictions@sha256:d4f393ac90b36807e444be4d6d2be03353df1055e66eb2bd53276a6d55d3a0b2"
 }
 
 data "aws_iam_policy_document" "assume_role" {
